@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    
+    <!-- Define Properties for Log File Naming -->
+    <Properties>
+        <Property name="logPath">./logs</Property>
+      <Property name="logFile">adactionHotelapplogs</Property> 
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </Console>
+
+        <!-- Rolling File Appender (Creates logs with timestamps) -->
+        <RollingFile name="RollingFile" fileName="${logPath}/${logFile}"
+                     filePattern="${logPath}/automation-log-%d{yyyy-MM-dd_HH-mm-ss}.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger (Logs everything to both console and file) -->
+        <Root level="info">
+         <!--   <AppenderRef ref="Console"/> -->
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+
+        <!-- Logger for Selenium WebDriver (if needed) -->
+        <Logger name="org.openqa.selenium" level="INFO" additivity="false">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+    </Loggers>
+
+</Configuration>
