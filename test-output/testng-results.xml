@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="1" failed="3" skipped="3">
+<testng-results ignored="0" total="7" passed="1" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-15T19:02:10 IST" name="Suite" finished-at="2025-03-15T19:03:43 IST" duration-ms="93064">
+  <suite started-at="2025-05-14T23:39:04 IST" name="Suite" finished-at="2025-05-14T23:39:57 IST" duration-ms="52800">
     <groups>
     </groups>
-    <test started-at="2025-03-15T19:02:10 IST" name="Test" finished-at="2025-03-15T19:03:43 IST" duration-ms="93064">
+    <test started-at="2025-05-14T23:39:04 IST" name="Test" finished-at="2025-05-14T23:39:57 IST" duration-ms="52800">
       <class name="testcases.Tc001_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:12 IST" name="setup" finished-at="2025-03-15T19:02:28 IST" duration-ms="16382" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:07 IST" name="setup" finished-at="2025-05-14T23:39:13 IST" duration-ms="5191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:28 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-03-15T19:02:29 IST" duration-ms="710" status="FAIL">
+        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:13 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-05-14T23:39:14 IST" duration-ms="964" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:30 IST" name="teardown" finished-at="2025-03-15T19:02:30 IST" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:14 IST" name="teardown" finished-at="2025-05-14T23:39:14 IST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:30 IST" name="setup" finished-at="2025-03-15T19:02:41 IST" duration-ms="11454" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:14 IST" name="setup" finished-at="2025-05-14T23:39:19 IST" duration-ms="4719" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:41 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-03-15T19:02:44 IST" duration-ms="2457" status="PASS">
+        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:19 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-05-14T23:39:21 IST" duration-ms="2360" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,11 +117,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:44 IST" name="teardown" finished-at="2025-03-15T19:02:44 IST" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:21 IST" name="teardown" finished-at="2025-05-14T23:39:22 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:44 IST" name="setup" finished-at="2025-03-15T19:02:57 IST" duration-ms="12901" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:22 IST" name="setup" finished-at="2025-05-14T23:39:26 IST" duration-ms="4783" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:57 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-03-15T19:02:58 IST" duration-ms="1171" status="FAIL">
+        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:26 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-05-14T23:39:28 IST" duration-ms="1818" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -195,11 +195,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:58 IST" name="teardown" finished-at="2025-03-15T19:02:59 IST" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:29 IST" name="teardown" finished-at="2025-05-14T23:39:29 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:02:59 IST" name="setup" finished-at="2025-03-15T19:03:10 IST" duration-ms="11423" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:29 IST" name="setup" finished-at="2025-05-14T23:39:34 IST" duration-ms="4901" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,7 +215,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:10 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-03-15T19:03:12 IST" duration-ms="1594" status="FAIL">
+        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:34 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-05-14T23:39:35 IST" duration-ms="1465" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -273,11 +273,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:12 IST" name="teardown" finished-at="2025-03-15T19:03:13 IST" duration-ms="340" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:36 IST" name="teardown" finished-at="2025-05-14T23:39:36 IST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:13 IST" name="setup" finished-at="2025-03-15T19:03:43 IST" duration-ms="29916" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:36 IST" name="setup" finished-at="2025-05-14T23:39:41 IST" duration-ms="4364" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -290,75 +290,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0cbc28a13149f688a4fbf923e54dbbca, get {url=https://adactinhotelapp.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0cbc28a13149f688a4fbf923e54dbbca]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0cbc28a13149f688a4fbf923e54dbbca, get {url=https://adactinhotelapp.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0cbc28a13149f688a4fbf923e54dbbca
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-at base.BaseClass.setup(BaseClass.java:62)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:43 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-03-15T19:03:43 IST" duration-ms="0" status="SKIP">
+        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:41 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-05-14T23:39:42 IST" duration-ms="1382" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -371,46 +306,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0cbc28a13149f688a4fbf923e54dbbca, get {url=https://adactinhotelapp.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0cbc28a13149f688a4fbf923e54dbbca]]>
+              <![CDATA[expected [Adactin.com - Search Hotel] but found [Adactin.com - Hotel Reservation System]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0cbc28a13149f688a4fbf923e54dbbca, get {url=https://adactinhotelapp.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0cbc28a13149f688a4fbf923e54dbbca
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-at base.BaseClass.setup(BaseClass.java:62)
+              <![CDATA[java.lang.AssertionError: expected [Adactin.com - Search Hotel] but found [Adactin.com - Hotel Reservation System]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testcases.Tc001_LoginTest.Validate_login(Tc001_LoginTest.java:36)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
@@ -435,19 +347,31 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:43 IST" name="teardown" finished-at="2025-03-15T19:03:43 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:43 IST" name="teardown" finished-at="2025-05-14T23:39:43 IST" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:43 IST" name="setup" finished-at="2025-03-15T19:03:43 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:43 IST" name="setup" finished-at="2025-05-14T23:39:48 IST" duration-ms="4744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:43 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-03-15T19:03:43 IST" duration-ms="0" status="SKIP">
+        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:48 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-05-14T23:39:48 IST" duration-ms="851" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -460,46 +384,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0cbc28a13149f688a4fbf923e54dbbca, get {url=https://adactinhotelapp.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0cbc28a13149f688a4fbf923e54dbbca]]>
+              <![CDATA[expected [Adactin.com - Search Hotel] but found [Adactin.com - Hotel Reservation System]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0cbc28a13149f688a4fbf923e54dbbca, get {url=https://adactinhotelapp.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0cbc28a13149f688a4fbf923e54dbbca
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-at base.BaseClass.setup(BaseClass.java:62)
+              <![CDATA[java.lang.AssertionError: expected [Adactin.com - Search Hotel] but found [Adactin.com - Hotel Reservation System]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testcases.Tc001_LoginTest.Validate_login(Tc001_LoginTest.java:36)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
@@ -524,19 +425,31 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:43 IST" name="teardown" finished-at="2025-03-15T19:03:43 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:49 IST" name="teardown" finished-at="2025-05-14T23:39:51 IST" duration-ms="1717" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:43 IST" name="setup" finished-at="2025-03-15T19:03:43 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:51 IST" name="setup" finished-at="2025-05-14T23:39:55 IST" duration-ms="4702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:43 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-03-15T19:03:43 IST" duration-ms="0" status="SKIP">
+        <test-method signature="Validate_login(java.lang.String,java.lang.String)[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:55 IST" name="Validate_login" data-provider="logindata1" finished-at="2025-05-14T23:39:56 IST" duration-ms="894" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -549,46 +462,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0cbc28a13149f688a4fbf923e54dbbca, get {url=https://adactinhotelapp.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0cbc28a13149f688a4fbf923e54dbbca]]>
+              <![CDATA[expected [Adactin.com - Search Hotel] but found [Adactin.com - Hotel Reservation System]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=134.0.6998.89)
-Build info: version: '4.26.0', revision: '8ccf0219d7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0cbc28a13149f688a4fbf923e54dbbca, get {url=https://adactinhotelapp.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62487}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62487/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0cbc28a13149f688a4fbf923e54dbbca
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-at base.BaseClass.setup(BaseClass.java:62)
+              <![CDATA[java.lang.AssertionError: expected [Adactin.com - Search Hotel] but found [Adactin.com - Hotel Reservation System]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testcases.Tc001_LoginTest.Validate_login(Tc001_LoginTest.java:36)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
@@ -613,11 +503,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-03-15T19:03:43 IST" name="teardown" finished-at="2025-03-15T19:03:43 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Tc001_LoginTest@557caf28]" started-at="2025-05-14T23:39:57 IST" name="teardown" finished-at="2025-05-14T23:39:57 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
