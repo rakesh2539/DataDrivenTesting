@@ -417,3 +417,52 @@
 2025-03-15 19:03:12 [main] INFO  testcases.Tc001_LoginTest - login button is clicked
 2025-03-15 19:03:13 [main] INFO  testcases.Tc001_LoginTest - *************Browser is Closed*************
 2025-03-15 19:03:15 [main] INFO  testcases.Tc001_LoginTest - *********Browser is Launched**********
+2025-05-14 23:39:10 [main] INFO  testcases.Tc001_LoginTest - *********Browser is Launched**********
+2025-05-14 23:39:13 [main] INFO  testcases.Tc001_LoginTest - *********Navigated to application url**********
+2025-05-14 23:39:13 [main] INFO  testcases.Tc001_LoginTest - ***Validate_login testcase is started****
+2025-05-14 23:39:13 [main] INFO  testcases.Tc001_LoginTest - username is Entered
+2025-05-14 23:39:13 [main] INFO  testcases.Tc001_LoginTest - password is Entered
+2025-05-14 23:39:13 [main] INFO  testcases.Tc001_LoginTest - login button is clicked
+2025-05-14 23:39:14 [main] INFO  testcases.Tc001_LoginTest - *************Browser is Closed*************
+2025-05-14 23:39:16 [main] INFO  testcases.Tc001_LoginTest - *********Browser is Launched**********
+2025-05-14 23:39:19 [main] INFO  testcases.Tc001_LoginTest - *********Navigated to application url**********
+2025-05-14 23:39:19 [main] INFO  testcases.Tc001_LoginTest - ***Validate_login testcase is started****
+2025-05-14 23:39:19 [main] INFO  testcases.Tc001_LoginTest - username is Entered
+2025-05-14 23:39:20 [main] INFO  testcases.Tc001_LoginTest - password is Entered
+2025-05-14 23:39:21 [main] INFO  testcases.Tc001_LoginTest - login button is clicked
+2025-05-14 23:39:22 [main] INFO  testcases.Tc001_LoginTest - *************Browser is Closed*************
+2025-05-14 23:39:24 [main] INFO  testcases.Tc001_LoginTest - *********Browser is Launched**********
+2025-05-14 23:39:26 [main] INFO  testcases.Tc001_LoginTest - *********Navigated to application url**********
+2025-05-14 23:39:26 [main] INFO  testcases.Tc001_LoginTest - ***Validate_login testcase is started****
+2025-05-14 23:39:27 [main] INFO  testcases.Tc001_LoginTest - username is Entered
+2025-05-14 23:39:27 [main] INFO  testcases.Tc001_LoginTest - password is Entered
+2025-05-14 23:39:28 [main] INFO  testcases.Tc001_LoginTest - login button is clicked
+2025-05-14 23:39:29 [main] INFO  testcases.Tc001_LoginTest - *************Browser is Closed*************
+2025-05-14 23:39:31 [main] INFO  testcases.Tc001_LoginTest - *********Browser is Launched**********
+2025-05-14 23:39:34 [main] INFO  testcases.Tc001_LoginTest - *********Navigated to application url**********
+2025-05-14 23:39:34 [main] INFO  testcases.Tc001_LoginTest - ***Validate_login testcase is started****
+2025-05-14 23:39:34 [main] INFO  testcases.Tc001_LoginTest - username is Entered
+2025-05-14 23:39:35 [main] INFO  testcases.Tc001_LoginTest - password is Entered
+2025-05-14 23:39:35 [main] INFO  testcases.Tc001_LoginTest - login button is clicked
+2025-05-14 23:39:36 [main] INFO  testcases.Tc001_LoginTest - *************Browser is Closed*************
+2025-05-14 23:39:38 [main] INFO  testcases.Tc001_LoginTest - *********Browser is Launched**********
+2025-05-14 23:39:41 [main] INFO  testcases.Tc001_LoginTest - *********Navigated to application url**********
+2025-05-14 23:39:41 [main] INFO  testcases.Tc001_LoginTest - ***Validate_login testcase is started****
+2025-05-14 23:39:41 [main] INFO  testcases.Tc001_LoginTest - username is Entered
+2025-05-14 23:39:41 [main] INFO  testcases.Tc001_LoginTest - password is Entered
+2025-05-14 23:39:42 [main] INFO  testcases.Tc001_LoginTest - login button is clicked
+2025-05-14 23:39:43 [main] INFO  testcases.Tc001_LoginTest - *************Browser is Closed*************
+2025-05-14 23:39:45 [main] INFO  testcases.Tc001_LoginTest - *********Browser is Launched**********
+2025-05-14 23:39:48 [main] INFO  testcases.Tc001_LoginTest - *********Navigated to application url**********
+2025-05-14 23:39:48 [main] INFO  testcases.Tc001_LoginTest - ***Validate_login testcase is started****
+2025-05-14 23:39:48 [main] INFO  testcases.Tc001_LoginTest - username is Entered
+2025-05-14 23:39:48 [main] INFO  testcases.Tc001_LoginTest - password is Entered
+2025-05-14 23:39:48 [main] INFO  testcases.Tc001_LoginTest - login button is clicked
+2025-05-14 23:39:51 [main] INFO  testcases.Tc001_LoginTest - *************Browser is Closed*************
+2025-05-14 23:39:53 [main] INFO  testcases.Tc001_LoginTest - *********Browser is Launched**********
+2025-05-14 23:39:55 [main] INFO  testcases.Tc001_LoginTest - *********Navigated to application url**********
+2025-05-14 23:39:55 [main] INFO  testcases.Tc001_LoginTest - ***Validate_login testcase is started****
+2025-05-14 23:39:56 [main] INFO  testcases.Tc001_LoginTest - username is Entered
+2025-05-14 23:39:56 [main] INFO  testcases.Tc001_LoginTest - password is Entered
+2025-05-14 23:39:56 [main] INFO  testcases.Tc001_LoginTest - login button is clicked
+2025-05-14 23:39:57 [main] INFO  testcases.Tc001_LoginTest - *************Browser is Closed*************
