@@ -11,6 +11,9 @@ public class Tc002_BookingTest extends BaseClass {
 	public void bookingWithValidData() {
 		
 		System.out.println(" Booking is successfull");
+		
+		
+		System.out.println(" Booking is not successfull ");
 	}
 	
 
